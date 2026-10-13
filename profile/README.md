@@ -18,5 +18,5 @@
 </p>
 
 <p align="center">
-  <img src="footer.svg" width="100%" alt="Titans. Building binary worlds. Hosted by TitanArrayHosting.net">
+  <img src="footer.svg" width="100%" alt="Titans. Building binary worlds. Hosted by hosting.titanarray.net">
 </p>
