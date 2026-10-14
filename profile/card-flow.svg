@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 412 218" width="412" height="218" role="img" aria-label="TITAN FLOW">
+<title>TITAN FLOW</title>
+<defs>
+<linearGradient id="wash" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#19d9cf" stop-opacity=".13"/><stop offset=".8" stop-color="#19d9cf" stop-opacity="0"/></linearGradient>
+    <radialGradient id="light"><stop stop-color="#19d9cf" stop-opacity=".18"/><stop offset="1" stop-color="#19d9cf" stop-opacity="0"/></radialGradient>
+    <clipPath id="clip"><rect x="1" y="1" width="410" height="216" rx="24"/></clipPath>
+</defs>
+<rect x="1" y="1" width="410" height="216" rx="24" fill="#071322"/>
+    <g clip-path="url(#clip)"><rect width="412" height="218" fill="url(#wash)"/>
+    <ellipse cx="412" cy="0" rx="288.4" ry="370.59999999999997" fill="url(#light)"/>
+    <path d="M32 1H380" stroke="#19d9cf" stroke-width="4"/></g>
+    <rect x="1" y="1" width="410" height="216" rx="24" fill="none" stroke="#213750" stroke-width="2"/><path d="M326 28h54v40" fill="none" stroke="#19d9cf" stroke-opacity=".45" stroke-width="1.5"/><rect x="30" y="40" width="42" height="3" rx="1.5" fill="#19d9cf"/><path d="M48.2 108.2V111.5H41.6V128H37.5V111.5H30.8V108.2ZM58.3 108.2V128H54.1V108.2ZM81.6 108.2V111.5H75V128H70.8V111.5H64.2V108.2ZM102.1 128H97.8L96.2 123.2H88.6L86.9 128H82.7L89.9 108.2H94.9ZM89.5 120.1H95.2L92.4 111.5ZM124.6 108.2V128H119.8L112.9 116.4L111.2 113.1H111.2L111.3 116.5V128H107.6V108.2H112.3L119.2 119.8L120.9 123.1H121L120.8 119.7V108.2Z" fill="#19d9cf"/><path d="M54.6 158.8H40.3V164.7H51.7V170.3H40.3V181H33.1V153.3H54.6ZM67 175.4H80.9V181H59.8V153.3H67ZM97.6 152.9Q101.8 152.9 104.9 154.6Q107.9 156.3 109.5 159.5Q111.2 162.7 111.2 167.1Q111.2 171.6 109.5 174.8Q107.9 178 104.9 179.7Q101.8 181.4 97.6 181.4Q93.4 181.4 90.3 179.7Q87.3 178 85.6 174.8Q84 171.6 84 167.1Q84 162.7 85.6 159.5Q87.3 156.3 90.3 154.6Q93.4 152.9 97.6 152.9ZM97.6 158.5Q95.6 158.5 94.2 159.5Q92.8 160.5 92.1 162.4Q91.4 164.3 91.4 167.1Q91.4 170 92.1 171.9Q92.8 173.8 94.2 174.8Q95.6 175.8 97.6 175.8Q99.6 175.8 101 174.8Q102.3 173.8 103.1 171.9Q103.8 170 103.8 167.1Q103.8 164.3 103.1 162.4Q102.3 160.5 101 159.5Q99.6 158.5 97.6 158.5ZM121.8 181 113.8 153.3H121.6L126.2 175.2L131.2 153.3H137.7L142.8 175.1L147.5 153.3H154.9L146.9 181H139L135.7 167.6L134.5 160.8H134.4L133.2 167.6L129.9 181Z" fill="#f4f8fc"/>
+</svg>
