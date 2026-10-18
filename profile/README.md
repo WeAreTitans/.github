@@ -4,6 +4,11 @@
 <p align="center">
   <a href="https://titanatlas.world"><img src="flagship-atlas.svg" width="100%" alt="TITAN.ATLAS"></a>
 </p>
+<p align="center"><strong>Atlas Free &amp; Atlas Lite — launch preparation</strong></p>
+<p align="center">Windows · Ubuntu · macOS</p>
+<p align="center">Free brings Home and Life with one connected mailbox.<br>Lite adds full Work and a second connected mailbox.<br>Titan Transmit mail is in launch scope for both editions; Free’s Work context is limited to Transmit mail.</p>
+<p align="center"><sub>Each edition and platform remains under review. Download, registration and purchase links will be added after release approval.</sub></p>
+<p align="center"><a href="https://titanatlas.world">Explore Atlas</a></p>
 <p align="center">
   <a href="https://titansavant.com"><img src="flagship-savant.svg" width="49%" alt="TitanSavantLLM"></a>
   <img src="flagship-intelligence.svg" width="49%" alt="Titan Intelligence">
