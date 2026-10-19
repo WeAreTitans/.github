@@ -38,6 +38,7 @@
 - This organization profile now carries the public Atlas updates journal. Entries are added as items are verified.
 - Ubuntu 0.1.1 test builds: a folder-permissions defect was found in real-install testing and corrected candidates are under independent verification.
 - A full-screen, edition-aware setup experience for Atlas has a working prototype (design preview; not in any build).
+- titanatlas.world layout harmonized: all sections and the shared footer now ride one 1200px column across every page.
 
 <sub>Atlas Free and Atlas Lite are not released. Nothing is available to download yet.</sub>
 
