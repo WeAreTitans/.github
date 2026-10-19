@@ -35,6 +35,9 @@
 - [Titan.Anti-Drift Traction](https://titanatlas.world/tech/adt/) has its own page. It is under qualification and is not yet a shipped guarantee.
 - Eleven Titan sites now have an [About page](https://titanatlas.world/about/) with an Email us form.
 - Every linked page on titanatlas.world and titanatlas.live now carries the Titans signature footer.
+- This organization profile now carries the public Atlas updates journal. Entries are added as items are verified.
+- Ubuntu 0.1.1 test builds: a folder-permissions defect was found in real-install testing and corrected candidates are under independent verification.
+- A full-screen, edition-aware setup experience for Atlas has a working prototype (design preview; not in any build).
 
 <sub>Atlas Free and Atlas Lite are not released. Nothing is available to download yet.</sub>
 
