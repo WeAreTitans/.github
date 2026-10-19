@@ -18,11 +18,11 @@
 - Ubuntu 0.1.1 test builds: a folder-permissions defect was found in real-install testing and corrected candidates are under independent verification.
 - A full-screen, edition-aware setup experience for Atlas has a working prototype (design preview; not in any build).
 - Ubuntu 0.1.1 corrected candidates (Free `ad9575e7`, Lite `3224ff8a`): real `dpkg -i` install + normal-user first run verified on Ubuntu 24.04 — the folder-permissions defect is confirmed fixed (0 unreadable files, app launches). Independent acceptance, mail-flow tests and the Lite grant UI remain open; not yet released.
-- Ubuntu 0.1.1 bound candidates: Free `ad9575e7` and Lite `3224ff8a` (permissions-repaired repacks of the pinned producer binaries). Real `dpkg -i` install + normal-user launch verified on Ubuntu 24.04; Lite ELF provably embeds the grant-install UI (`titan-family.js` `fc27a33c`, decoded-asset binding). Two broad-tree respins (`3a5b18a5`, `f69eb35a`) were quarantined after independent scan — do not promote. Independent acceptance remains pending; not yet released.
+- Ubuntu 0.1.1 bound candidates: Free `ad9575e7` and Lite `3224ff8a` (permissions-repaired repacks of the pinned producer binaries). Real `dpkg -i` install + normal-user launch verified on Ubuntu 24.04; Lite ELF provably embeds the grant-install UI (`titan-family.js` `fc27a33c`, decoded-asset binding). Two broad-tree respins (`3a5b18a5`, `f69eb35a`) were quarantined after independent scan — do not promote. Independent acceptance remains pending.
 - Gmail connection: ships only after a real Google OAuth project exists. Registration underway: TitanArray project created, Gmail API enabled, consent screen + Desktop-app client created. The supported scope is exactly `https://www.googleapis.com/auth/gmail.modify` (Gmail REST; no full-mail or IMAP) — that is the scope to declare in Data Access.
 - titanatlas.world layout harmonized and verified live: all 15 measured elements — hero, Digital Engineering, time + state sections, editions cards, Explore, footer grid, notices, legal row and the TITANS lockup — ride one 1200px rail at all 11 widths (390–2560px), no sideways scroll.
 
-<sub>Atlas Free and Atlas Lite are not released. Nothing is available to download yet.</sub>
+<sub>Atlas Free 0.1.1 for Ubuntu 24.04+ is published at https://titanatlas.world/downloads/ (sha256 `ad9575e7…`, owner-directed launch; independent acceptance matrix remains open). Atlas Lite and the Windows/macOS editions are not released.</sub>
 
 <p align="center">
   <a href="https://titansavant.com"><img src="flagship-savant.svg" width="49%" alt="TitanSavantLLM"></a>
