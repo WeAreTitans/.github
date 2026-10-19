@@ -4,6 +4,23 @@
 <p align="center">
   <a href="https://titanatlas.world"><img src="flagship-atlas.svg" width="100%" alt="TITAN.ATLAS"></a>
 </p>
+
+<p align="center"><a href="https://titanatlas.world"><img src="atlas-coming-soon.svg" width="560" alt="TITAN.ATLAS Free and Lite - coming soon"></a></p>
+<h3 align="center">Atlas updates</h3>
+<p align="center"><sub>Newest first. Items link to a live page where there is one. The full journal is on the <a href="https://titanatlas.world/atlas/upgrades/">Atlas Upgrades board</a>.</sub></p>
+
+**19 Oct 2026**
+- The [Abilities page](https://titanatlas.world/abilities/) is now one list: every ability and promise opens in place, in the same table.
+- [Titan.Anti-Drift Traction](https://titanatlas.world/tech/adt/) has its own page. It is under qualification and is not yet a shipped guarantee.
+- Eleven Titan sites now have an [About page](https://titanatlas.world/about/) with an Email us form.
+- Every linked page on [titanatlas.world](https://titanatlas.world/) and [titanatlas.live](https://titanatlas.live/) now carries the Titans signature footer.
+- This organization profile now carries the public Atlas updates journal. Entries are added as items are verified.
+- Ubuntu 0.1.1 test builds: a folder-permissions defect was found in real-install testing and corrected candidates are under independent verification.
+- A full-screen, edition-aware setup experience for Atlas has a working prototype (design preview; not in any build).
+- titanatlas.world layout harmonized: all sections and the shared footer now ride one 1200px column across every page.
+
+<sub>Atlas Free and Atlas Lite are not released. Nothing is available to download yet.</sub>
+
 <p align="center">
   <a href="https://titansavant.com"><img src="flagship-savant.svg" width="49%" alt="TitanSavantLLM"></a>
   <img src="flagship-intelligence.svg" width="49%" alt="Titan Intelligence">
@@ -26,21 +43,6 @@
   <a href="https://wearetitans.dev"><img src="card-family.svg" width="49%" alt="WeAreTitans"></a>
 </p>
 <p align="center"><sub>Explore the Titan family. Availability and source releases are announced by each project.</sub></p>
-
-<h3 align="center">Atlas updates</h3>
-<p align="center"><sub>Newest first. Every item points to a live page you can read. The full journal is on the <a href="https://titanatlas.world/atlas/upgrades/">Atlas Upgrades board</a>.</sub></p>
-
-**19 Oct 2026**
-- The [Abilities page](https://titanatlas.world/abilities/) is now one list: every ability and promise opens in place, in the same table.
-- [Titan.Anti-Drift Traction](https://titanatlas.world/tech/adt/) has its own page. It is under qualification and is not yet a shipped guarantee.
-- Eleven Titan sites now have an [About page](https://titanatlas.world/about/) with an Email us form.
-- Every linked page on titanatlas.world and titanatlas.live now carries the Titans signature footer.
-- This organization profile now carries the public Atlas updates journal. Entries are added as items are verified.
-- Ubuntu 0.1.1 test builds: a folder-permissions defect was found in real-install testing and corrected candidates are under independent verification.
-- A full-screen, edition-aware setup experience for Atlas has a working prototype (design preview; not in any build).
-- titanatlas.world layout harmonized: all sections and the shared footer now ride one 1200px column across every page.
-
-<sub>Atlas Free and Atlas Lite are not released. Nothing is available to download yet.</sub>
 
 <p align="center">
   <img src="showcase-footer.svg" width="100%" alt="Titans. Building binary worlds. Hosted by hosting.titanarray.net.">
