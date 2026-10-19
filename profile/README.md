@@ -19,7 +19,7 @@
 - A full-screen, edition-aware setup experience for Atlas has a working prototype (design preview; not in any build).
 - Ubuntu 0.1.1 corrected candidates (Free `ad9575e7`, Lite `3224ff8a`): real `dpkg -i` install + normal-user first run verified on Ubuntu 24.04 — the folder-permissions defect is confirmed fixed (0 unreadable files, app launches). Independent acceptance, mail-flow tests and the Lite grant UI remain open; not yet released.
 - Ubuntu 0.1.1 bound: Free `ad9575e7` and Lite `f69eb35a` are the shipped candidate hashes. Free passed real `dpkg -i` install + normal-user launch on Ubuntu 24.04 with the folder-permissions defect confirmed fixed. Lite was respun at 0.1.1 to compile in the grant-install UI — the new binary carries the grant card (bound in the build receipt) and passed a real install plus 5/5 grant-flow browser checks. Independent acceptance remains pending; not yet released.
-- Gmail connection: ruled to ship only after a real Google OAuth project exists — the desktop client registration spec is prepared (Desktop-app client, `https://mail.google.com/` scope, loopback redirect).
+- Gmail connection: ships only after a real Google OAuth project exists. Registration is underway (TitanArray project created, Gmail API enabled, consent screen and Desktop-app client in progress). Consent scope is being aligned to what the shipped binaries actually request.
 - titanatlas.world layout harmonized and verified live: hero, Digital Engineering scene, sub-page heroes (About/Trust/How-it-works, previously ~105px off), footer wraps, estate notices and the legal link row all ride one 1200px column at desktop and phone widths.
 
 <sub>Atlas Free and Atlas Lite are not released. Nothing is available to download yet.</sub>
