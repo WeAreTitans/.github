@@ -1,0 +1,11 @@
+--- a/assets/atlas-site-repair.js	2026-10-19 23:00:47.000000000 -0400
++++ b/assets/atlas-site-repair.js	2026-10-20 01:30:32.083701300 -0400
+@@ -12,7 +12,7 @@
+       if (url.origin === window.location.origin && (url.pathname.replace(/\/$/, '') || '/') === current) link.setAttribute('aria-current', 'page');
+     });
+     header.setAttribute('data-atlas-repair-header', '20261018');
+-    var media = window.matchMedia(document.body.classList.contains('titan-standard') ? '(max-width: 1150px)' : '(max-width: 820px)');
++    var media = window.matchMedia('(max-width: 820px)');
+     var ctas = Array.prototype.slice.call(header.querySelectorAll('.site-cta'));
+     var toggle = document.createElement('button');
+     toggle.type = 'button'; toggle.className = 'atlas-repair-menu';
