@@ -1,0 +1,11 @@
+--- a/assets/consciousness.js	2026-10-17 14:32:04.000000000 -0400
++++ b/assets/consciousness.js	2026-10-20 01:26:47.199808800 -0400
+@@ -321,7 +321,7 @@
+ }
+ const base=cache(() => {drawHalo(1);ctx.save();ctx.beginPath();ctx.arc(C.x,C.y,R*.996,0,TAU);ctx.clip();drawBase(1);ctx.restore();});
+ const glass=cache(() => {drawRim(1);drawQuietCore();});
+-const views=[...document.querySelectorAll('.consciousness-hero,.consciousness-mark')].filter(host => !host.closest('#atlasHeroStage,#atlasEvaStage,#pricingEvaStage') && !host.classList.contains('ribbon-rendered')).map(host => {
++const views=[...document.querySelectorAll('.consciousness-hero,.consciousness-mark')].filter(host => !host.closest('#atlasHeroStage,#atlasEvaStage,#pricingEvaStage'+(document.querySelector('script[src*="atlas-ribbon-v2"]')?',#siteHeaderOrb,#dlHeroOrb':'')) && !host.classList.contains('ribbon-rendered')).map(host => {
+  const canvas=document.createElement('canvas');canvas.className='consciousness-canvas';canvas.setAttribute('aria-hidden','true');
+  const context=canvas.getContext('2d');
+  if (!context) return null;

@@ -13,16 +13,29 @@ body[data-site-shell] .site-brand .site-wordmark{font-size:26px!important}
 body[data-site-shell] .site-nav{gap:0!important}
 body[data-site-shell] .site-nav a{font-family:"Work Sans",system-ui,sans-serif!important;font-size:15px!important;font-weight:500!important;line-height:1.5!important;padding-inline:0!important}
 body[data-site-shell] .site-nav a:not(:first-child)::before{margin:0 12px!important}
-body[data-site-shell] .site-nav a[aria-current]:first-child::before{content:"|";display:inline-block;color:#fff!important;margin:0 12px 0 0!important}
+/* reserved invisible leading pipe keeps nav width identical across current-page variations;
+   only a current first item shows it white */
+body[data-site-shell] .site-nav a:first-child::before{content:"|";display:inline-block;visibility:hidden;margin:0 12px 0 0!important}
+body[data-site-shell] .site-nav a[aria-current]:first-child::before{visibility:visible;color:#fff!important}
 body[data-site-shell] .site-nav a[aria-current="true"]{color:#ff8117!important}
 body[data-site-shell] .site-nav a[aria-current="true"]::before{color:#fff!important}
 
+/* uniform header dimensions across page shells (home was 84px, inner pages 80px) */
+@media(min-width:1201px){
+  body[data-site-shell] .site-top{height:84px!important;min-height:84px!important;box-sizing:border-box!important;padding-block:0!important;gap:20px!important}
+  body.titan-standard .site-top{height:84px!important;min-height:84px!important;box-sizing:border-box!important;padding-block:0!important;gap:20px!important}
+  body[data-site-shell] .site-nav a{display:inline-flex!important}
+}
 /* 821-1200px: explicit two-row header so the CTA never orphans and nothing overflows */
 @media(min-width:821px) and (max-width:1200px){
-  body[data-site-shell] .site-top{flex-wrap:wrap;row-gap:8px}
+  body[data-site-shell] .site-top{flex-wrap:wrap;row-gap:8px;height:auto!important;min-height:84px!important;padding-block:12px!important}
   body[data-site-shell] .site-top .site-nav{order:3;flex:0 0 100%;justify-content:flex-start}
+  body[data-site-shell] .site-nav a{display:inline-flex!important}
 }
-/* <=820px: untouched - the existing menu toggle / mobile rules stay in charge */
+/* <=820px: existing menu toggle / mobile rules stay in charge; no pipes anywhere */
+@media(max-width:820px){
+  body[data-site-shell] .site-nav a::before{display:none!important}
+}
 
 /* downloads: the main wrapper joins the shared rail; inner copy keeps its readable widths */
 body[data-route="downloads"] main.meet>.in{width:min(var(--site-reading),calc(100% - var(--site-gutter)*2));max-width:none;box-sizing:border-box}

@@ -26,6 +26,7 @@ release gates remain unchanged.
 - Artwork masters: `profile/assets/atlas-windows/` (PNG masters + 720px web
   thumbnails).
 - The shared footer ping color is explicitly protected from page-shell overrides.
+- Header dimensions and reserved separator spacing are shared across page shells; dedicated header/download orb hosts have one renderer.
 
 _Independent visual acceptance remains pending. Other Titan/SynOct sites are
 outside this publication._
