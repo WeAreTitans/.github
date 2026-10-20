@@ -9,10 +9,16 @@
 <p align="center"><strong>Our first public Atlas Free download is here.</strong> Ubuntu 24.04+ local beta. <a href="https://titanatlas.world/downloads/"><strong>GET ATLAS FREE →</strong></a></p>
 <p align="center"><sub>Mail connection is not available in this build. Independent release acceptance remains open. Atlas Lite, Windows and macOS are not yet publicly released.</sub></p>
 <p align="center"><strong>COMING SOON</strong> &nbsp; <img src="windows.svg" width="26" alt="Windows logo" valign="middle"> Windows &nbsp;·&nbsp; <img src="apple.svg" width="26" alt="Apple logo" valign="middle"> Mac &nbsp;·&nbsp; Atlas Lite</p>
+<p align="center">
+  <a href="https://titanatlas.world/platform/"><img src="assets/atlas-windows/ATLAS_STABLE_WINDOWS_FINAL-720.webp" width="31%" alt="Atlas for Windows — luminous azure helix (in qualification)"></a>
+  <a href="https://titanatlas.world/platform/"><img src="assets/atlas-windows/EVA_DARK_MATTER_WINDOWS_FINAL-720.webp" width="31%" alt="Eva Dark.Matter for Windows — iridescent obsidian spiral (in qualification)"></a>
+  <a href="https://titanatlas.world/platform/"><img src="assets/atlas-windows/CLEO_EVENT_HORIZON_WINDOWS_FINAL-720.webp" width="31%" alt="Cleo Event.Horizon for Windows — celestial torus of light (in qualification)"></a>
+</p>
+<p align="center"><sub>Owner-selected Windows soul artwork (20 Oct 2026). Windows and macOS editions remain in qualification — not released.</sub></p>
 <h3 align="center">Atlas updates</h3>
 <p align="center"><sub>Check out our pace of updates here — <a href="https://titanatlas.world/atlas/upgrades/"><strong>the Atlas Upgrades board</strong></a>. The full engineering journal lives there.</sub></p>
 
-<sub>Atlas Free 0.1.1 for Ubuntu 24.04+ is published at https://titanatlas.world/downloads/ (sha256 `ad9575e7…`, owner-directed launch; independent acceptance matrix remains open). Atlas Lite and the Windows/macOS editions are not released.</sub>
+<sub><a href="CHANGELOG-website-20261020.md">Website revision status</a> · Atlas Free 0.1.1 for Ubuntu 24.04+ is published at https://titanatlas.world/downloads/ (sha256 `ad9575e7…`, owner-directed launch; independent acceptance matrix remains open). Atlas Lite and the Windows/macOS editions are not released.</sub>
 
 <p align="center">
   <a href="https://titansavant.com"><img src="flagship-savant.svg" width="49%" alt="TitanSavantLLM"></a>
