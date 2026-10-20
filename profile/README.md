@@ -24,6 +24,8 @@
 - Gmail connection: ships only after a real Google OAuth project exists. Registration underway: TitanArray project created, Gmail API enabled, consent screen + Desktop-app client created. The supported scope is exactly `https://www.googleapis.com/auth/gmail.modify` (Gmail REST; no full-mail or IMAP) — that is the scope to declare in Data Access.
 - titanatlas.world layout harmonized and verified live: all 15 measured elements — hero, Digital Engineering, time + state sections, editions cards, Explore, footer grid, notices, legal row and the TITANS lockup — rode one 1200px rail at all 11 widths. A later shared-design layer moved the home page and footer to a 1280px column; sub-page alignment regressed (headings 40px off the footer rail at 1440px+) — the two-rule 1280px rail fix was deployed 2026-10-20 (site-consistency.css v20261020-railfix, all 42 pages).
 
+<sub>Check out our pace of updates here — https://titanatlas.world/atlas/upgrades/</sub>
+
 <sub>Atlas Free 0.1.1 for Ubuntu 24.04+ is published at https://titanatlas.world/downloads/ (sha256 `ad9575e7…`, owner-directed launch; independent acceptance matrix remains open). Atlas Lite and the Windows/macOS editions are not released.</sub>
 
 <p align="center">
