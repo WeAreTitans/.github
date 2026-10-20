@@ -1,0 +1,54 @@
+
+/* === titan-shared-header r2 20261020 ===
+   One rail for the shared header on every public page: --site-reading capped by --site-gutter
+   (inner pages used the full-bleed shell padding, home used --titan-width; same numbers, one seam). */
+body[data-site-shell] .site-top{padding-inline:max(var(--site-gutter),calc((100% - var(--site-reading))/2))!important}
+body.titan-standard .site-top{padding-inline:max(var(--titan-gutter),calc((100% - var(--site-reading))/2))!important}
+
+/* same brand size on every page (home target) */
+body[data-site-shell] .site-brand .site-wordmark{font-size:26px!important}
+
+/* top menu: Work Sans 15px, weight 500, line-height 1.5, gap 0, link padding-inline 0,
+   orange pipes with a 12px margin each side, current page keeps a white leading pipe (incl. first item) */
+body[data-site-shell] .site-nav{gap:0!important}
+body[data-site-shell] .site-nav a{font-family:"Work Sans",system-ui,sans-serif!important;font-size:15px!important;font-weight:500!important;line-height:1.5!important;padding-inline:0!important}
+body[data-site-shell] .site-nav a:not(:first-child)::before{margin:0 12px!important}
+body[data-site-shell] .site-nav a[aria-current]:first-child::before{content:"|";display:inline-block;color:#fff!important;margin:0 12px 0 0!important}
+body[data-site-shell] .site-nav a[aria-current="true"]{color:#ff8117!important}
+body[data-site-shell] .site-nav a[aria-current="true"]::before{color:#fff!important}
+
+/* 821-1200px: explicit two-row header so the CTA never orphans and nothing overflows */
+@media(min-width:821px) and (max-width:1200px){
+  body[data-site-shell] .site-top{flex-wrap:wrap;row-gap:8px}
+  body[data-site-shell] .site-top .site-nav{order:3;flex:0 0 100%;justify-content:flex-start}
+}
+/* <=820px: untouched - the existing menu toggle / mobile rules stay in charge */
+
+/* downloads: the main wrapper joins the shared rail; inner copy keeps its readable widths */
+body[data-route="downloads"] main.meet>.in{width:min(var(--site-reading),calc(100% - var(--site-gutter)*2));max-width:none;box-sizing:border-box}
+
+/* about: Ollie on his own teal/blue card, 260px picture, stacks on narrow screens */
+body[data-site-shell] .about-hero .ollie-card{background:linear-gradient(150deg,#0f4c5c,#0a2547)!important;border:1px solid #2a6f8e!important}
+body[data-site-shell] .about-hero .ollie-card img{width:260px!important;height:260px!important;object-fit:contain}
+@media(max-width:960px){body[data-site-shell] .page-hero.about-hero{grid-template-columns:1fr}body[data-site-shell] .about-hero .ollie-card{justify-self:center;max-width:440px;width:100%}}
+
+/* platform: nine art tiles at up to 240px (Ubuntu and Mac sources unchanged) */
+body[data-site-shell] .nine-orb{width:min(240px,100%);height:auto;aspect-ratio:1/1;border-radius:16px}
+
+/* family strip: SynOct logo | Titans | Hosted by | orange ping - every logo and name a link, Work Sans for Titans */
+.family-strip{display:flex;align-items:center;flex-wrap:wrap;gap:18px 40px}
+.family-strip__synoct{display:inline-block}
+.family-strip__synoct-img{display:block;width:184px;height:auto;max-width:46vw}
+.family-strip__titans{display:inline-flex;align-items:center;gap:12px;text-decoration:none}
+.family-strip__sigil{width:40px;height:40px;flex:none}
+.family-strip__word{font-family:"Work Sans",sans-serif;font-weight:700;font-size:20px;color:#f2f7ff;letter-spacing:.02em}
+.family-strip__tag{font-family:"Work Sans",sans-serif;font-size:14px;white-space:nowrap}
+.family-strip__tag .fs-b{color:#fff}.family-strip__tag .fs-y{color:#ffb347}.family-strip__tag .fs-w{color:#9db2ce}
+.family-strip__hosted{margin:0;display:flex;flex-direction:column;gap:2px;font:13px/1.4 "Work Sans",sans-serif;color:#9db2ce}
+.family-strip__hosted a{color:#dfe9f2}
+.family-strip__hosted a:hover{color:#ff8117}
+.family-strip__ping{margin:0 0 0 auto;font:15px/1.5 "Work Sans",sans-serif;color:#ff8117}
+@media(max-width:720px){.family-strip{flex-direction:column;align-items:flex-start;gap:14px}.family-strip__ping{margin-left:0}}
+/* follow-up: protect ping color from page-shell .footer p rules */
+.family-strip .family-strip__ping{color:#ff8117!important}
+/* === end titan-shared-header r2 === */
