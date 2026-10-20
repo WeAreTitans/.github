@@ -70,4 +70,14 @@ body[data-site-shell] .nine-orb{width:min(240px,100%);height:auto;aspect-ratio:1
 @media(max-width:720px){.family-strip{flex-direction:column;align-items:flex-start;gap:14px}.family-strip__ping{margin-left:0}}
 /* follow-up: protect ping color from page-shell .footer p rules */
 .family-strip .family-strip__ping{color:#ff8117!important}
+
+/* why-atlas joins the shared rail; its copy is uncapped inside it */
+body main.why-atlas{width:min(var(--site-reading),calc(100% - var(--site-gutter)*2));padding-inline:0;max-width:none}
+body main.why-atlas .why-atlas-copy{max-width:none}
+/* wide text sections become readable columns; about disclosures pair up */
+@media(min-width:1400px){
+  body main.meet>.in>section.meet-card{column-count:2;column-gap:56px}
+  body main.meet>.in>section.meet-card p{break-inside:avoid;margin-top:0}
+  body[data-route="about"] .disclosures{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 56px}
+}
 /* === end titan-shared-header r2 === */

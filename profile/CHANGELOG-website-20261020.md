@@ -28,6 +28,7 @@ release gates remain unchanged.
 - The shared footer ping color is explicitly protected from page-shell overrides.
 - Header dimensions and reserved separator spacing are shared across page shells; dedicated header/download orb hosts have one renderer.
 - The mobile menu breakpoint is 820px on every page shell.
+- Removed the superseded lower Ollie card and normalized Why Atlas chrome, stylesheet and reading width; wide text sections use responsive columns.
 
 _Independent visual acceptance remains pending. Other Titan/SynOct sites are
 outside this publication._
