@@ -5,11 +5,14 @@
   <a href="https://titanatlas.world"><img src="flagship-atlas.svg" width="100%" alt="TITAN.ATLAS"></a>
 </p>
 
-<p align="center"><a href="https://titanatlas.world"><img src="atlas-coming-soon.svg" width="560" alt="TITAN.ATLAS Free and Lite - coming soon"></a></p>
+<p align="center"><a href="https://titanatlas.world/downloads/"><img src="atlas-free-beta-live.svg" width="100%" alt="TITAN.ATLAS Free Ubuntu 0.1.1 public local beta is now downloadable. Gmail connection is not yet available."></a></p>
+<p align="center"><strong>Our first public Atlas Free download is here.</strong> Ubuntu 24.04+ local beta. <a href="https://titanatlas.world/downloads/"><strong>GET ATLAS FREE →</strong></a></p>
+<p align="center"><sub>Mail connection is not available in this build. Independent release acceptance remains open. Atlas Lite, Windows and macOS are not yet publicly released.</sub></p>
 <h3 align="center">Atlas updates</h3>
 <p align="center"><sub>Newest first. Items link to a live page where there is one. The full journal is on the <a href="https://titanatlas.world/atlas/upgrades/">Atlas Upgrades board</a>.</sub></p>
 
 **19 Oct 2026**
+- **ATLAS FREE IS HERE — FIRST PUBLIC UBUNTU BETA.** [Download Ubuntu Free 0.1.1](https://titanatlas.world/downloads/), with a verified installer checksum (`ad9575e7…`). This is a local beta; Gmail connection is not available in this build, and independent acceptance work continues. Atlas Lite, Windows and macOS have not been released.
 - The [Abilities page](https://titanatlas.world/abilities/) is now one list: every ability and promise opens in place, in the same table.
 - [Titan.Anti-Drift Traction](https://titanatlas.world/tech/adt/) has its own page. It is under qualification and is not yet a shipped guarantee.
 - Eleven Titan sites now have an [About page](https://titanatlas.world/about/) with an Email us form.
