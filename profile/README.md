@@ -8,6 +8,7 @@
 <p align="center"><a href="https://titanatlas.world/downloads/"><img src="atlas-free-beta-live.svg" width="100%" alt="TITAN.ATLAS Free Ubuntu 0.1.1 public local beta is now downloadable. Gmail connection is not yet available."></a></p>
 <p align="center"><strong>Our first public Atlas Free download is here.</strong> Ubuntu 24.04+ local beta. <a href="https://titanatlas.world/downloads/"><strong>GET ATLAS FREE →</strong></a></p>
 <p align="center"><sub>Mail connection is not available in this build. Independent release acceptance remains open. Atlas Lite, Windows and macOS are not yet publicly released.</sub></p>
+<p align="center"><sub>Coming soon:&nbsp;<img src="windows.svg" width="13" alt="Windows logo" valign="middle">&nbsp;Windows &nbsp;·&nbsp; <img src="apple.svg" width="13" alt="Apple logo" valign="middle">&nbsp;macOS &nbsp;·&nbsp; Atlas Lite</sub></p>
 <h3 align="center">Atlas updates</h3>
 <p align="center"><sub>Newest first. Items link to a live page where there is one. The full journal is on the <a href="https://titanatlas.world/atlas/upgrades/">Atlas Upgrades board</a>.</sub></p>
 
