@@ -30,5 +30,9 @@ release gates remain unchanged.
 - The mobile menu breakpoint is 820px on every page shell.
 - Removed the superseded lower Ollie card and normalized Why Atlas chrome, stylesheet and reading width; wide text sections use responsive columns.
 
+- Corrected the desktop reading rail to exactly 70% at widths of 1280px and above, with responsive gutters below. All 40 standard Atlas routes were checked at 1440, 1920 and 2560 pixels; this is publisher verification, not independent acceptance. Mac Atlas and Eva tiles now use the matching blue-loop and iridescent-pearl artwork. Mac Cleo remains pending the original fiery-ring asset; Windows and Ubuntu artwork are unchanged.
+
+- Every page header now carries exactly one Get Atlas call-to-action in the same position (duplicate per-page header CTAs removed; the previously missing Join header CTA added). Navigation and the header CTA share the site's existing Work Sans file via a dedicated alias, and the owner banner matches the home shell's metrics on every route.
+
 _Independent visual acceptance remains pending. Other Titan/SynOct sites are
 outside this publication._

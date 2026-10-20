@@ -71,6 +71,100 @@ body[data-site-shell] .nine-orb{width:min(240px,100%);height:auto;aspect-ratio:1
 /* follow-up: protect ping color from page-shell .footer p rules */
 .family-strip .family-strip__ping{color:#ff8117!important}
 
+/* === true 70vw rail law 20261020 ===
+   Desktop (>=1280): the shared reading rail is exactly 70vw (no 1280px floor).
+   Below 1280: near-full width inside the gutters, unchanged. */
+/* important on the custom properties: titan-foundation.css and titan-footer.css
+   load after this file and re-declare the same vars unconditionally */
+@media(min-width:1280px){
+  :root{--site-reading:70vw!important;--titan-width:70vw!important}
+  body #titan-standard-footer{--tf-width:70vw!important}
+}
+@media(max-width:1279px){
+  :root{--site-reading:calc(100% - var(--site-gutter,32px)*2)!important;--titan-width:calc(100% - var(--titan-gutter,32px)*2)!important}
+  body #titan-standard-footer{--tf-width:calc(100% - var(--titan-gutter,32px)*2)!important}
+}
+/* outer containers that were pinned to the old 1200px literal now ride the rail */
+body .footer-grid.wrap,body .footer-bottom.wrap,body .estate-notice.wrap,body .footer .wrap,
+body .explore,body .launch-home-card,body .public-role-copy,body nav.atlas-repair-footer-links,
+body .editions-showcase .editions-inner,body .editions-inner{
+  width:min(var(--site-reading),calc(100% - var(--site-gutter,32px)*2))!important;
+  max-width:none!important;margin-inline:auto;box-sizing:border-box}
+/* >=1280: the primary main column and known capped content wrappers join the rail.
+   (below 1280 main keeps its natural full-bleed box; inner caps are unchanged) */
+@media(min-width:1280px){
+  body[data-site-shell] main,body.titan-standard main{
+    width:min(var(--site-reading),calc(100% - var(--site-gutter,32px)*2))!important;
+    max-width:none!important;margin-inline:auto;box-sizing:border-box}
+  /* wrappers inside the railed main must fill it, not re-apply the viewport gutter */
+  body[data-site-shell] main>.in,body.titan-standard main>.in,
+  body[data-site-shell] main .page-hero,body.titan-standard main .page-hero,
+  body[data-site-shell] main .hero .wrap,body.titan-standard main .hero .wrap,
+  body[data-site-shell] main .meet>.in,body.titan-standard main .meet>.in,
+  body[data-route="home"] main .scene,body[data-route="home"] main .scene#hero,body[data-route="home"] main .scene#time,
+  body[data-site-shell] main .editions-inner,body.titan-standard main .editions-inner,
+  body.titan-standard[data-route="home"] main #editions > .editions-inner,
+  body.titan-standard[data-route="home"] main .editions-showcase > .editions-inner{
+    width:100%!important;max-width:none!important;margin-inline:0!important}
+}
+/* home scenes/hero: the 1720px cap with computed insets becomes the rail itself at >=1280 */
+@media(min-width:1280px){
+  body .scene,body .scene#hero,body[data-route="home"] .scene#hero,body[data-route="home"] .scene#time{
+    max-width:var(--site-reading)!important;margin-inline:auto;padding-inline:0!important}
+  body[data-route="home"] .stateFold summary,body[data-route="home"] .state .sec-head{padding-inline:0!important}
+}
+/* 1280-1599: 70vw cannot fit brand+nav+CTA in one row -> explicit two-row header
+   (821-1200 two-row rule above stays; 1201-1279 keeps the single 84px row) */
+@media(min-width:1280px) and (max-width:1599px){
+  body[data-site-shell] .site-top{flex-wrap:wrap;row-gap:8px;height:auto!important;min-height:84px!important;padding-block:12px!important}
+  body[data-site-shell] .site-top .site-nav{order:3;flex:0 0 100%;justify-content:flex-start}
+}
+/* single 84px row only where it fits: 1201-1279 and >=1600 */
+@media(min-width:1201px) and (max-width:1279px){
+  body[data-site-shell] .site-top,body.titan-standard .site-top{height:84px!important;min-height:84px!important;box-sizing:border-box!important;padding-block:0!important;gap:20px!important;flex-wrap:nowrap}
+}
+@media(min-width:1600px){
+  body[data-site-shell] .site-top,body.titan-standard .site-top{height:84px!important;min-height:84px!important;box-sizing:border-box!important;padding-block:0!important;gap:20px!important;flex-wrap:nowrap}
+}
+/* === end 70vw rail === */
+
+/* === navigation font alias + canonical CTA 20261020 ===
+   Alias guarantees the existing shared Work Sans variable file is what the header
+   uses (a computed family name alone does not prove the file loaded).
+   Same file as the existing "Work Sans" face - no new font, no bundled font. */
+@font-face{font-family:"TitanNavigation";src:url("/fonts/work-sans.woff2") format("woff2");font-style:normal;font-weight:100 900;font-display:swap}
+body[data-site-shell] .site-top .site-nav a,body[data-site-shell] .site-top .site-nav a::before,
+body.titan-standard .site-top .site-nav a,body.titan-standard .site-top .site-nav a::before{
+  font-family:"TitanNavigation","Work Sans",system-ui,sans-serif!important;
+  letter-spacing:normal!important;text-transform:none!important}
+body[data-site-shell] .site-top .site-cta,body.titan-standard .site-top .site-cta{
+  font-family:"TitanNavigation","Work Sans",system-ui,sans-serif!important}
+/* canonical header CTA on every shell: exactly one Get Atlas link
+   (Meet's 8px margin is removed), pinned to the rail's right edge */
+body[data-site-shell] .site-top .site-cta,body.titan-standard .site-top .site-cta{
+  display:inline-flex;align-items:center;font-size:14px!important;font-weight:600!important;
+  line-height:1.5!important;min-height:44px;padding:10px 16px!important;margin:0 0 0 auto!important}
+/* owner banner metrics follow the home shell on every route: the default face is
+   rem-based, so pages with a larger root font-size were inflating the banner
+   (abilities: ~15px/42.7px tall vs home 11px/37.5px -> header sat ~5px low).
+   Same orange/navy text, same padding - metrics only. */
+body .titan-owner-banner{font-size:11px!important;line-height:1.5!important;padding-block:10px!important}
+/* === end navigation font + CTA === */
+
+/* === railed-main inner wrappers 20261020 ===
+   main is the rail at >=1280, so direct wrap-level children must fill it,
+   not re-apply the viewport gutter (double inset). Inner card/copy caps stay. */
+@media(min-width:1280px){
+  body[data-site-shell] main>.wrap,body.titan-standard main>.wrap,
+  body[data-site-shell] main>.in>.wrap,body.titan-standard main>.in>.wrap,
+  body[data-site-shell] main>.state,body.titan-standard main>.state,
+  body[data-site-shell] main .wrap,body.titan-standard main .wrap,
+  body[data-site-shell] main .state .table,body.titan-standard main .state .table,
+  body[data-site-shell] main .cta,body.titan-standard main .cta{
+    width:100%!important;max-width:none!important;margin-inline:0!important}
+}
+/* === end railed-main inner wrappers === */
+
 /* why-atlas joins the shared rail; its copy is uncapped inside it */
 body main.why-atlas{width:min(var(--site-reading),calc(100% - var(--site-gutter)*2));padding-inline:0;max-width:none}
 body main.why-atlas .why-atlas-copy{max-width:none}
@@ -81,3 +175,12 @@ body main.why-atlas .why-atlas-copy{max-width:none}
   body[data-route="about"] .disclosures{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 56px}
 }
 /* === end titan-shared-header r2 === */
+
+
+
+
+
+
+
+
+
