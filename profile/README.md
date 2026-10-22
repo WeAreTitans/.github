@@ -17,14 +17,6 @@
 
 **This isn't a vibe-coded product.** TITAN.ATLAS is a compulsively engineered system of services, databases, routes, intelligence layers and synesthetic wizardry, built for one purpose: a digital companion who will never break her seven promises to you.
 
-<p align="center"><strong>NOW IN BETA</strong> &nbsp; <img src="apple.svg" width="26" alt="Apple logo" valign="middle"> Mac &nbsp;&nbsp;·&nbsp;&nbsp; <strong>COMING SOON</strong> &nbsp; <img src="windows.svg" width="26" alt="Windows logo" valign="middle"> Windows</p>
-<p align="center">
-  <a href="https://titanatlas.world/platform/"><img src="assets/atlas-windows/ATLAS_STABLE_WINDOWS_FINAL-720.webp" width="31%" alt="Atlas for Windows — luminous azure helix (in qualification)"></a>
-  <a href="https://titanatlas.world/platform/"><img src="assets/atlas-windows/EVA_DARK_MATTER_WINDOWS_FINAL-720.webp" width="31%" alt="Eva Dark.Matter for Windows — iridescent obsidian spiral (in qualification)"></a>
-  <a href="https://titanatlas.world/platform/"><img src="assets/atlas-windows/CLEO_EVENT_HORIZON_WINDOWS_FINAL-720.webp" width="31%" alt="Cleo Event.Horizon for Windows — celestial torus of light (in qualification)"></a>
-</p>
-<p align="center"><sub>Owner-selected Windows soul artwork (20 Oct 2026). The Windows edition remains in qualification — not released.</sub></p>
-
 ## Her seven promises
 
 | | Promise | What it means for you |
@@ -52,6 +44,14 @@ TITAN.ATLAS is in public beta and under active development. Where every promise 
 | **Fusion Adapt**<br><sub>The router that learns</sub> | It learns from checked results which model, or combination, serves each kind of request best. A faster or cheaper route earns its place only when verified outcomes prove it holds the quality bar. High-stakes work never takes the shortcut. |
 
 Each system is at its own stage, from in daily use to still being qualified; the **[Tech page](https://titanatlas.world/tech/)** shows where each one stands. You meet one companion. Every system above works behind her, so you never have to manage them.
+
+<p align="center"><strong>NOW IN BETA</strong> &nbsp; <img src="apple.svg" width="26" alt="Apple logo" valign="middle"> Mac &nbsp;&nbsp;·&nbsp;&nbsp; <strong>COMING SOON</strong> &nbsp; <img src="windows.svg" width="26" alt="Windows logo" valign="middle"> Windows</p>
+<p align="center">
+  <a href="https://titanatlas.world/platform/"><img src="assets/atlas-windows/ATLAS_STABLE_WINDOWS_FINAL-720.webp" width="31%" alt="Atlas for Windows — luminous azure helix (in qualification)"></a>
+  <a href="https://titanatlas.world/platform/"><img src="assets/atlas-windows/EVA_DARK_MATTER_WINDOWS_FINAL-720.webp" width="31%" alt="Eva Dark.Matter for Windows — iridescent obsidian spiral (in qualification)"></a>
+  <a href="https://titanatlas.world/platform/"><img src="assets/atlas-windows/CLEO_EVENT_HORIZON_WINDOWS_FINAL-720.webp" width="31%" alt="Cleo Event.Horizon for Windows — celestial torus of light (in qualification)"></a>
+</p>
+<p align="center"><sub>Owner-selected Windows soul artwork (20 Oct 2026). The Windows edition remains in qualification — not released.</sub></p>
 
 <p align="center"><b>Your world. Your rules. Yours, for life.</b></p>
 
