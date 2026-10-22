@@ -1,10 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 284" width="1200" height="284" role="img" aria-label="Titan.Atlas Free Ubuntu 0.1.1 public local beta is available now. Gmail connection is not available yet.">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 284" width="1200" height="284" role="img" aria-label="Titan.Atlas Free 0.1.5 public local beta is available now for Ubuntu and Mac (Apple silicon). Mail connection is not available yet.">
 <defs><linearGradient id="a" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#071524"/><stop offset="1" stop-color="#101d30"/></linearGradient><linearGradient id="b" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#ff7600"/><stop offset="1" stop-color="#ffba70"/></linearGradient></defs>
 <rect width="1200" height="284" rx="20" fill="url(#a)"/><rect x="2" y="2" width="1196" height="280" rx="18" fill="none" stroke="#ff7600" stroke-opacity=".55" stroke-width="2"/>
 <path d="M0 244L1200 18M0 271L1200 45M440 282L1200 136" stroke="#3d8fe0" stroke-opacity=".14" stroke-width="2"/>
 <circle cx="1069" cy="116" r="88" fill="none" stroke="#3d8fe0" stroke-width="3" stroke-opacity=".55"/><circle cx="1069" cy="116" r="57" fill="none" stroke="#ff7600" stroke-width="12" stroke-opacity=".64" stroke-dasharray="66 20 14 22"/><circle cx="1069" cy="116" r="33" fill="none" stroke="#e3f2ff" stroke-width="3" stroke-opacity=".8"/><circle cx="1069" cy="116" r="7" fill="#ff7600"/>
 <text x="54" y="52" font-family="Arial,Helvetica,sans-serif" font-size="23" fill="#ffffff" letter-spacing="6" font-weight="700">TITAN.ATLAS</text>
 <text x="54" y="118" font-family="Arial,Helvetica,sans-serif" font-size="48" fill="url(#b)" font-weight="800" letter-spacing="1">FREE IS HERE.</text>
-<text x="54" y="158" font-family="Arial,Helvetica,sans-serif" font-size="22" fill="#ecf5ff" font-weight="700" letter-spacing="2">UBUNTU 0.1.1 · PUBLIC LOCAL BETA</text>
+<text x="54" y="158" font-family="Arial,Helvetica,sans-serif" font-size="22" fill="#ecf5ff" font-weight="700" letter-spacing="2">0.1.5 · UBUNTU + MAC · PUBLIC LOCAL BETA</text>
 <rect x="54" y="179" width="578" height="41" rx="9" fill="#ff7600"/><text x="75" y="207" font-family="Arial,Helvetica,sans-serif" font-size="20" fill="#071120" font-weight="800" letter-spacing="1">DOWNLOAD: TITANATLAS.WORLD/DOWNLOADS</text>
-<text x="54" y="252" font-family="Arial,Helvetica,sans-serif" font-size="16" fill="#b5c5d8">Local beta available now · Gmail connection not yet available · Other editions coming soon</text></svg>
+<text x="54" y="252" font-family="Arial,Helvetica,sans-serif" font-size="16" fill="#b5c5d8">Ubuntu and Mac (Apple silicon) betas available now · Mail connection not yet available · Windows next</text></svg>
