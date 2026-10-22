@@ -8,13 +8,6 @@
 <p align="center"><a href="https://titanatlas.world/downloads/"><img src="atlas-free-beta-live.svg" width="100%" alt="TITAN.ATLAS Free 0.1.5 public local beta is downloadable for Ubuntu and Mac (Apple silicon). Mail connection is not yet available."></a></p>
 <p align="center"><strong>Our first public Atlas Free download is here.</strong> Ubuntu 24.04+ and macOS 13+ (Apple silicon) local beta. <a href="https://titanatlas.world/downloads/"><strong>GET ATLAS FREE →</strong></a></p>
 <p align="center"><sub>Mail connection is not available in this build. Atlas Lite for Mac is a no-charge beta (paid activation is not available yet). Windows is in qualification. Independent release acceptance remains open.</sub></p>
-<p align="center"><strong>NOW IN BETA</strong> &nbsp; <img src="apple.svg" width="26" alt="Apple logo" valign="middle"> Mac &nbsp;&nbsp;·&nbsp;&nbsp; <strong>COMING SOON</strong> &nbsp; <img src="windows.svg" width="26" alt="Windows logo" valign="middle"> Windows</p>
-<p align="center">
-  <a href="https://titanatlas.world/platform/"><img src="assets/atlas-windows/ATLAS_STABLE_WINDOWS_FINAL-720.webp" width="31%" alt="Atlas for Windows — luminous azure helix (in qualification)"></a>
-  <a href="https://titanatlas.world/platform/"><img src="assets/atlas-windows/EVA_DARK_MATTER_WINDOWS_FINAL-720.webp" width="31%" alt="Eva Dark.Matter for Windows — iridescent obsidian spiral (in qualification)"></a>
-  <a href="https://titanatlas.world/platform/"><img src="assets/atlas-windows/CLEO_EVENT_HORIZON_WINDOWS_FINAL-720.webp" width="31%" alt="Cleo Event.Horizon for Windows — celestial torus of light (in qualification)"></a>
-</p>
-<p align="center"><sub>Owner-selected Windows soul artwork (20 Oct 2026). The Windows edition remains in qualification — not released.</sub></p>
 
 <h1 align="center">TITAN.ATLAS</h1>
 
@@ -23,6 +16,14 @@
 **TITAN.ATLAS is not a chatbot.** She is an intelligence system, and chat is just one of the ways you talk to her. Underneath is an ever-persistent engine that does not forget: **your** digital companion, running by **your** rules, and completing (on auto, if you let her) everything you would otherwise spend hours at your computer orchestrating yourself.
 
 **This isn't a vibe-coded product.** TITAN.ATLAS is a compulsively engineered system of services, databases, routes, intelligence layers and synesthetic wizardry, built for one purpose: a digital companion who will never break her seven promises to you.
+
+<p align="center"><strong>NOW IN BETA</strong> &nbsp; <img src="apple.svg" width="26" alt="Apple logo" valign="middle"> Mac &nbsp;&nbsp;·&nbsp;&nbsp; <strong>COMING SOON</strong> &nbsp; <img src="windows.svg" width="26" alt="Windows logo" valign="middle"> Windows</p>
+<p align="center">
+  <a href="https://titanatlas.world/platform/"><img src="assets/atlas-windows/ATLAS_STABLE_WINDOWS_FINAL-720.webp" width="31%" alt="Atlas for Windows — luminous azure helix (in qualification)"></a>
+  <a href="https://titanatlas.world/platform/"><img src="assets/atlas-windows/EVA_DARK_MATTER_WINDOWS_FINAL-720.webp" width="31%" alt="Eva Dark.Matter for Windows — iridescent obsidian spiral (in qualification)"></a>
+  <a href="https://titanatlas.world/platform/"><img src="assets/atlas-windows/CLEO_EVENT_HORIZON_WINDOWS_FINAL-720.webp" width="31%" alt="Cleo Event.Horizon for Windows — celestial torus of light (in qualification)"></a>
+</p>
+<p align="center"><sub>Owner-selected Windows soul artwork (20 Oct 2026). The Windows edition remains in qualification — not released.</sub></p>
 
 ## Her seven promises
 
