@@ -8,6 +8,7 @@
 <p align="center"><a href="https://titanatlas.world/downloads/"><img src="atlas-free-beta-live.svg" width="100%" alt="TITAN.ATLAS Free 0.1.5 public local beta is downloadable for Ubuntu and Mac (Apple silicon). Mail connection is not yet available."></a></p>
 <p align="center"><strong>Our first public Atlas Free download is here.</strong> Ubuntu 24.04+ and macOS 13+ (Apple silicon) local beta. <a href="https://titanatlas.world/downloads/"><strong>GET ATLAS FREE →</strong></a></p>
 <p align="center"><sub>Mail connection is not available in this build. Atlas Lite for Mac is a no-charge beta (paid activation is not available yet). Windows is in qualification. Independent release acceptance remains open.</sub></p>
+<p align="center"><sub>Atlas Free is available at no charge. TITAN.ATLAS is a commercial product family with paid editions in development; this beta does not imply that paid activation or other editions are released.</sub></p>
 
 <h1 align="center">TITAN.ATLAS</h1>
 
@@ -58,6 +59,10 @@ Each system is at its own stage, from in daily use to still being qualified; the
 <p align="center"><b>— Team T.I.T.A.N.S</b></p>
 
 <p align="center"><a href="https://titanatlas.world/"><b>Meet TITAN.ATLAS → titanatlas.world</b></a></p>
+
+### Engineering pulse · 25 October 2026
+
+**Love is labor. The world will follow.** Today we continued refining the TITAN.ATLAS public front door—typography, motion, composition, and responsive presentation. These are design iterations, not a new desktop release or a claim of independent release acceptance. The [download page](https://titanatlas.world/downloads/) and [Atlas Upgrades board](https://titanatlas.world/atlas/upgrades/) remain the sources for availability and engineering status.
 
 <h3 align="center">Atlas updates</h3>
 <p align="center"><sub>Check out our pace of updates here — <a href="https://titanatlas.world/atlas/upgrades/"><strong>the Atlas Upgrades board</strong></a>. The full engineering journal lives there.</sub></p>
