@@ -64,6 +64,7 @@ Each system is at its own stage, from in daily use to still being qualified; the
 
 **Built. Published. Checked.** Today's work is visible in the products—and recorded here.
 
+- **Atlas Free: Home navigation repair is live for Ubuntu.** Your Atlas now opens Home instead of returning through setup to Mail. A separate House connection control keeps the pairing screen reachable; opening local Home does not connect a House or provider. [Current download and checksum](https://titanatlas.world/downloads/). The local navigation was verified in the installed application; independent release acceptance remains open.
 - **Atlas Free: Ubuntu beta polish is live.** The Mail screen and application header have been refined. The version remains 0.1.5; the [dated October 26 release record](https://titanatlas.world/atlas/upgrades/#ubuntu-free-015-polish-20261026) identifies the replacement build and separates its evidence from the original October 21 release. [Downloads and checksums](https://titanatlas.world/downloads/).
 - **SynOct: six-page presentation update is live.** Old Glory Red, navy and electric blue carry the engineering house's identity; Atlas and Ollie retain their orange accents. [Explore SynOct](https://synoct.com/).
 - **Shared website repairs: checked in real browsers.** TitanArray's product-page footer marks are centered, Mayfly's footer-area text is no longer clipped, and the Atlas homepage has one visible family-footer link. [TitanArray](https://titanarray.net/doors/) · [TitanMayfly](https://titanmayfly.com/) · [Atlas](https://titanatlas.world/).
@@ -77,7 +78,7 @@ Each system is at its own stage, from in daily use to still being qualified; the
 <h3 align="center">Atlas updates</h3>
 <p align="center"><sub>Check out our pace of updates here — <a href="https://titanatlas.world/atlas/upgrades/"><strong>the Atlas Upgrades board</strong></a>. The full engineering journal lives there.</sub></p>
 
-<sub><a href="CHANGELOG-website-20261020.md">Website revision status</a> · Atlas Free 0.1.5 polish build for Ubuntu 24.04+ (26 October 2026; sha256 `1de91159…`) and the macOS 13+ beta (sha256 `b217fb0d…`) are published at https://titanatlas.world/downloads/ (independent acceptance matrix remains open). Windows is not released.</sub>
+<sub><a href="CHANGELOG-website-20261020.md">Website revision status</a> · Atlas Free 0.1.5 Home-navigation repair for Ubuntu 24.04+ (26 October 2026; sha256 `bf667a32…`) and the macOS 13+ beta (sha256 `b217fb0d…`) are published at https://titanatlas.world/downloads/ (independent acceptance matrix remains open). Windows is not released.</sub>
 
 <p align="center">
   <a href="https://titansavant.com"><img src="flagship-savant.svg" width="49%" alt="TitanSavantLLM"></a>
