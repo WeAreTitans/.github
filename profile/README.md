@@ -60,6 +60,10 @@ Each system is at its own stage, from in daily use to still being qualified; the
 
 <p align="center"><a href="https://titanatlas.world/"><b>Meet TITAN.ATLAS → titanatlas.world</b></a></p>
 
+### Engineering pulse · 28 October 2026
+
+- **Atlas website: module overview is live.** A concise new page presents Atlas modules and their benefits in the shared website shell. It describes confirmed design and staged rollouts—not a claim that every module is released. [Explore the overview](https://titanatlas.world/compare-atlas/).
+
 ### Engineering pulse · 26 October 2026
 
 **Built. Published. Checked.** Today's work is visible in the products—and recorded here.
