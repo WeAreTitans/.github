@@ -62,6 +62,7 @@ Each system is at its own stage, from in daily use to still being qualified; the
 
 ### Engineering pulse · 28 October 2026
 
+- **Atlas website: clearer navigation.** Atlas information and Explore links are now separated on the homepage and module overview, with responsive menu refinements. The Downloads header update remains pending. [Visit Atlas](https://titanatlas.world/) · [Module overview](https://titanatlas.world/compare-atlas/).
 - **Atlas website: module overview is live.** A concise new page presents Atlas modules and their benefits in the shared website shell. It describes confirmed design and staged rollouts—not a claim that every module is released. [Explore the overview](https://titanatlas.world/compare-atlas/).
 
 ### Engineering pulse · 26 October 2026
