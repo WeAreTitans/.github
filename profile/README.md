@@ -32,19 +32,9 @@
 
 TITAN.ATLAS is in public beta and under active development. Where every promise stands today, in plain words: **[titanatlas.world/abilities](https://titanatlas.world/abilities/)**
 
-## The systems that keep them
+## Under the hood
 
-| System | What it does for you |
-| :--- | :--- |
-| **Titan.Nitro**<br><sub>The speed architecture</sub> | The moment you ask, everything fires at once. Your memory is retrieved, your context and permissions are checked, and the available models are weighed against the task for quality, speed and cost. The goal is all of it inside the time on your screen. |
-| **Titan.Mnemos**<br><sub>The continuity layer</sub> | Durable records of what you said, decided and approved, with their sources and your corrections. They carry across sessions, restarts, upgrades and model changes. |
-| **Titan.Anti-Drift Traction (ADT)**<br><sub>The protection muscle</sub> | The key muscle at the heart of Titan.Mnemos. It keeps Atlas and every agent working for her inside the scope you authorized. **If it wasn't in the chat, it doesn't happen.** |
-| **TitanTrinity**<br><sub>Memory built for decades</sub> | Three layers: the raw record, working intelligence and institutional memory. Your last six weeks, six months and year stay close at hand, and only what holds up is kept for the long term. Built for a lifetime, not a session. |
-| **Titan.Savant**<br><sub>The augmentation layer</sub> | Titan's proprietary intelligence augmentation, coming in paid editions. Through your working day it prepares fresh, authorized context around your projects. Atlas starts every task already briefed, so the model you choose can do better work across your projects. |
-| **Titan Fusion**<br><sub>Many minds, one answer</sub> | Local and frontier models work the same problem together, instead of forcing everything through one model. |
-| **Fusion Adapt**<br><sub>The router that learns</sub> | It learns from checked results which model, or combination, serves each kind of request best. A faster or cheaper route earns its place only when verified outcomes prove it holds the quality bar. High-stakes work never takes the shortcut. |
-
-Each system is at its own stage, from in daily use to still being qualified; the **[Tech page](https://titanatlas.world/tech/)** shows where each one stands. You meet one companion. Every system above works behind her, so you never have to manage them.
+TITAN.ATLAS runs on Titan's own engineering for speed, continuity, memory, protection and model choice. You meet one companion, and everything underneath works behind her, so you never have to manage it. One rule runs through all of it: **if it wasn't in the chat, it doesn't happen.** What each part does for you, and where it stands today, is on the **[Tech page](https://titanatlas.world/tech/)**.
 
 <p align="center"><strong>NOW IN BETA</strong> &nbsp; <img src="windows.svg" width="26" alt="Windows logo" valign="middle"> Windows &nbsp;&nbsp;·&nbsp;&nbsp; <img src="apple.svg" width="26" alt="Apple logo" valign="middle"> Mac</p>
 <p align="center">
