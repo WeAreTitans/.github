@@ -5,9 +5,9 @@
   <a href="https://titanatlas.world"><img src="flagship-atlas.svg" width="100%" alt="TITAN.ATLAS"></a>
 </p>
 
-<p align="center"><a href="https://titanatlas.world/downloads/"><img src="atlas-free-beta-live.svg" width="100%" alt="TITAN.ATLAS Free 0.1.5 public local beta is downloadable for Ubuntu and Mac (Apple silicon). Mail connection is not yet available."></a></p>
-<p align="center"><strong>Our first public Atlas Free download is here.</strong> Ubuntu 24.04+ and macOS 13+ (Apple silicon) local beta. <a href="https://titanatlas.world/downloads/"><strong>GET ATLAS FREE →</strong></a></p>
-<p align="center"><sub>Mail connection is not available in this build. Atlas Lite for Mac is a no-charge beta (paid activation is not available yet). Windows is in qualification. Independent release acceptance remains open.</sub></p>
+<p align="center"><a href="https://titanatlas.world/downloads/"><img src="atlas-free-beta-live.svg" width="100%" alt="TITAN.ATLAS Free public beta is downloadable for Windows, Mac (Apple silicon) and Ubuntu. Windows and Mac 0.1.6 include Gmail read and send for listed test users."></a></p>
+<p align="center"><strong>Atlas Free is now in public beta on Windows, Mac and Ubuntu.</strong> Windows 10/11 and macOS 13+ (Apple silicon) at 0.1.6, Ubuntu 24.04+ at 0.1.5. <a href="https://titanatlas.world/downloads/"><strong>GET ATLAS FREE →</strong></a></p>
+<p align="center"><sub>Windows and Mac 0.1.6 include Gmail read and send; Google's verification is pending, so sign-in is open to listed test users. Ubuntu 0.1.5 has no mail yet. Atlas Lite for Windows and Mac is a no-charge beta (paid activation is not available yet). The Windows installers are not yet signed. Independent release acceptance remains open.</sub></p>
 <p align="center"><sub>Atlas Free is available at no charge. TITAN.ATLAS is a commercial product family with paid editions in development; this beta does not imply that paid activation or other editions are released.</sub></p>
 
 <h1 align="center">TITAN.ATLAS</h1>
@@ -46,19 +46,27 @@ TITAN.ATLAS is in public beta and under active development. Where every promise 
 
 Each system is at its own stage, from in daily use to still being qualified; the **[Tech page](https://titanatlas.world/tech/)** shows where each one stands. You meet one companion. Every system above works behind her, so you never have to manage them.
 
-<p align="center"><strong>NOW IN BETA</strong> &nbsp; <img src="apple.svg" width="26" alt="Apple logo" valign="middle"> Mac &nbsp;&nbsp;·&nbsp;&nbsp; <strong>COMING SOON</strong> &nbsp; <img src="windows.svg" width="26" alt="Windows logo" valign="middle"> Windows</p>
+<p align="center"><strong>NOW IN BETA</strong> &nbsp; <img src="windows.svg" width="26" alt="Windows logo" valign="middle"> Windows &nbsp;&nbsp;·&nbsp;&nbsp; <img src="apple.svg" width="26" alt="Apple logo" valign="middle"> Mac</p>
 <p align="center">
   <a href="https://titanatlas.world/platform/"><img src="assets/atlas-windows/ATLAS_STABLE_WINDOWS_FINAL-720.webp" width="31%" alt="Atlas for Windows — luminous azure helix (in qualification)"></a>
   <a href="https://titanatlas.world/platform/"><img src="assets/atlas-windows/EVA_DARK_MATTER_WINDOWS_FINAL-720.webp" width="31%" alt="Eva Dark.Matter for Windows — iridescent obsidian spiral (in qualification)"></a>
   <a href="https://titanatlas.world/platform/"><img src="assets/atlas-windows/CLEO_EVENT_HORIZON_WINDOWS_FINAL-720.webp" width="31%" alt="Cleo Event.Horizon for Windows — celestial torus of light (in qualification)"></a>
 </p>
-<p align="center"><sub>Owner-selected Windows soul artwork (20 Oct 2026). The Windows edition remains in qualification — not released.</sub></p>
+<p align="center"><sub>Owner-selected Windows soul artwork (20 Oct 2026) for the Atlas, Eva and Cleo editions, which are still in qualification. Atlas Free and Lite are in beta on Windows now.</sub></p>
 
 <p align="center"><b>Your world. Your rules. Yours, for life.</b></p>
 
 <p align="center"><b>— Team T.I.T.A.N.S</b></p>
 
 <p align="center"><a href="https://titanatlas.world/"><b>Meet TITAN.ATLAS → titanatlas.world</b></a></p>
+
+### Engineering pulse · 3 November 2026
+
+- **Atlas Free and Lite 0.1.6 for Windows are in public beta.** Windows 10 and 11, 64-bit, with Gmail read and send for listed test users while Google's verification is pending. The installers are not yet signed, so check the published checksum before you run them. [Downloads and checksums](https://titanatlas.world/downloads/) · [3 November release record](https://titanatlas.world/atlas/upgrades/#release-2026-11-03).
+- **A cleaner Mail screen on Windows.** Mail now uses the whole window, with larger list text and the reading pane beside the list.
+- **macOS 0.1.6 (1 November).** Free and Lite betas with Gmail read and send for listed test users. [Downloads](https://titanatlas.world/downloads/).
+
+**Release limits stay explicit.** Independent release acceptance remains open, and Ubuntu 0.1.5 has no mail yet. These are public engineering notices, not a release of internal source or private build records.
 
 ### Engineering pulse · 28 October 2026
 
@@ -83,7 +91,7 @@ Each system is at its own stage, from in daily use to still being qualified; the
 <h3 align="center">Atlas updates</h3>
 <p align="center"><sub>Check out our pace of updates here — <a href="https://titanatlas.world/atlas/upgrades/"><strong>the Atlas Upgrades board</strong></a>. The full engineering journal lives there.</sub></p>
 
-<sub><a href="CHANGELOG-website-20261020.md">Website revision status</a> · Atlas Free 0.1.5 Home-navigation repair for Ubuntu 24.04+ (26 October 2026; sha256 `bf667a32…`) and the macOS 13+ beta (sha256 `b217fb0d…`) are published at https://titanatlas.world/downloads/ (independent acceptance matrix remains open). Windows is not released.</sub>
+<sub><a href="CHANGELOG-website-20261020.md">Website revision status</a> · Atlas Free 0.1.6 for Windows 10/11 (sha256 `e6ce05e5…`) and macOS 13+ (sha256 `fe041d09…`), and Atlas Free 0.1.5 for Ubuntu 24.04+ (sha256 `5981edb7…`), are published at https://titanatlas.world/downloads/ (independent acceptance matrix remains open).</sub>
 
 <p align="center">
   <a href="https://titansavant.com"><img src="flagship-savant.svg" width="49%" alt="TitanSavantLLM"></a>
