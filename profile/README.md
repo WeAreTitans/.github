@@ -38,21 +38,16 @@ TITAN.ATLAS runs on Titan's own engineering for speed, continuity, memory, prote
 
 ## Showcase
 
-Screens captured from the running app: the first time Atlas wakes up in the Twilight edition, and the living geometry she takes on while she works.
+Screens captured from the running app: the first time Atlas wakes up in the Twilight edition, and two of its windows.
 
 <p align="center">
-  <a href="https://titanatlas.world/showcase/"><img src="showcase/installer-1-warning.png" width="32%" alt="A plain warning before any motion, with a choice of Plain HUD or Full experience"></a>
-  <a href="https://titanatlas.world/showcase/"><img src="showcase/installer-2-she-speaks-working.png" width="32%" alt="Atlas speaking: her sphere has become an eight-sided shape and the amber side bars glow"></a>
-  <a href="https://titanatlas.world/showcase/"><img src="showcase/installer-3-waking.png" width="32%" alt="Atlas at rest after her first line, with the setup steps on the left and system health on the right"></a>
-</p>
-<p align="center">
-  <a href="https://titanatlas.world/showcase/"><img src="showcase/atlas-living-geometry-states.png" width="100%" alt="Ten states of Atlas: idle sphere, six to ten sided shapes while working, then back to the sphere"></a>
+  <a href="https://titanatlas.world/showcase/"><img src="showcase/installer-3-waking.png" width="100%" alt="Atlas waking up for the first time, with the setup steps on the left and system health on the right"></a>
 </p>
 <p align="center">
   <a href="https://titanatlas.world/showcase/"><img src="showcase/atlas-realm-pane-sample.png" width="49%" alt="The Realm pane in the app, sample data"></a>
   <a href="https://titanatlas.world/showcase/"><img src="showcase/calendar-home-your-day-sample.png" width="49%" alt="Home with Your day, sample data"></a>
 </p>
-<p align="center"><sub>Captured from a development build. Realm and Home show sample data. Installer · Atlas · Tasks · Email · Calendar · To do · Wave · Afterglow: <a href="https://titanatlas.world/showcase/"><strong>the full Showcase →</strong></a></sub></p>
+<p align="center"><sub>Captured from a development build. Realm and Home show sample data. <a href="https://titanatlas.world/showcase/"><strong>The full Showcase →</strong></a></sub></p>
 
 <p align="center"><strong>NOW IN BETA</strong> &nbsp; <img src="windows.svg" width="26" alt="Windows logo" valign="middle"> Windows &nbsp;&nbsp;·&nbsp;&nbsp; <img src="apple.svg" width="26" alt="Apple logo" valign="middle"> Mac</p>
 <p align="center">
@@ -70,7 +65,7 @@ Screens captured from the running app: the first time Atlas wakes up in the Twil
 
 ### Engineering pulse · 5 November 2026
 
-- **Showcase is live on the website.** A new section collects screens captured from the running app, starting with the first-run installer of the Twilight edition and Atlas's living geometry, the shape she takes while she works. Where a screen shows sample data, the caption says so. Tasks, Email, To do, Wave and Afterglow are coming next. [See the Showcase](https://titanatlas.world/showcase/).
+- **Showcase is live on the website.** A new section collects screens captured from the running app, starting with the first-run installer of the Twilight edition and two of its windows. Where a screen shows sample data, the caption says so. Tasks, Email, To do, Wave and Afterglow are coming next. [See the Showcase](https://titanatlas.world/showcase/).
 
 **Release limits stay explicit.** The Twilight edition is in development and is not a public release. These are public engineering notices, not a release of internal source or private build records.
 
