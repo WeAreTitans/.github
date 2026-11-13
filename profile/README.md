@@ -71,6 +71,11 @@ Screens captured from the running app: the first time Atlas wakes up in the Twil
 
 **Release limits stay explicit.** The Twilight edition is in development and is not a public release. Builder-authored exam over fictional records; the in-app run was single-pass and is not yet independently reproduced.
 
+### Correction · 13 November 2026 (later the same day) · strict re-score
+
+- **An independent strict scorer re-scored the same builder-authored regression suite, and two seats agreed on every figure.** The strict totals: test-bench 0.1.87 **48 of 60**, in-chat 0.1.87 **48 of 60** (the spoiled row still excluded), and the newer development build **58 of 60**. The strict scorer caught answers that appended an invented project name to an otherwise right answer — the kind of error the first scorer let through. Corrected model-call count: **137** (the earlier 125 missed 12 preliminary calls).
+- The original figures above stay as first reported. These remain builder-authored regression-suite results over fictional records — a fix-check, not a general capability claim.
+
 ### Engineering pulse · 13 November 2026 · Ubuntu Free 0.1.6
 
 - **Atlas Free 0.1.6 for Ubuntu is out.** Ubuntu 24.04 and newer, amd64, 12.9 MB, with Gmail read and send through your own Google account, with the same test-user limit as macOS and Windows while Google's app verification is pending: connect it if you choose. [Downloads and checksums](https://titanatlas.world/downloads/)
