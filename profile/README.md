@@ -63,6 +63,14 @@ Screens captured from the running app: the first time Atlas wakes up in the Twil
 
 <p align="center"><a href="https://titanatlas.world/"><b>Meet TITAN.ATLAS → titanatlas.world</b></a></p>
 
+### Engineering pulse · 13 November 2026
+
+- **A small model with a better memory beats a small model alone.** In the Twilight edition, Atlas now answers from her memory layer, Savant, before she asks a language model. On a 43-question test set with fictional records, a 3-billion-parameter model running on our own computer got 8 right on its own and 38 right with Savant in front. An 8-billion-parameter model went from 7 to 39. With Savant in front, 18 questions needed no model call at all.
+- **Answers inside the app, on this computer.** Savant's answers now appear in Atlas's own chat in a test lane, each labelled with how it was answered: from records with no model call (about 0.2 seconds), from records plus one local model call, or a general answer from the local model. Arithmetic in an answer is checked by code, not by the model.
+- **More model calls did not mean better answers.** Running the same questions through a five-call review on top of Savant scored lower (33 and 32 of 43) and used five times the calls. Atlas keeps the shortest route that is right.
+
+**Release limits stay explicit.** The Twilight edition is in development and is not a public release. The test set is our own and synthetic, each result is a single run, and these answers use fictional test records, not anyone's personal data. These are public engineering notices, not a release of internal source or private build records.
+
 ### Engineering pulse · 5 November 2026
 
 - **Showcase is live on the website.** A new section collects screens captured from the running app, starting with the first-run installer of the Twilight edition and two of its windows. Where a screen shows sample data, the caption says so. Tasks, Email, To do, Wave and Afterglow are coming next. [See the Showcase](https://titanatlas.world/showcase/).
