@@ -6,8 +6,8 @@
 </p>
 
 <p align="center"><a href="https://titanatlas.world/downloads/"><img src="atlas-free-beta-live.svg" width="100%" alt="TITAN.ATLAS Free public beta is downloadable for Windows, Mac (Apple silicon) and Ubuntu. Windows and Mac 0.1.6 include Gmail read and send for listed test users."></a></p>
-<p align="center"><strong>Atlas Free is now in public beta on Windows, Mac and Ubuntu.</strong> Windows 10/11 and macOS 13+ (Apple silicon) at 0.1.6, Ubuntu 24.04+ at 0.1.5. <a href="https://titanatlas.world/downloads/"><strong>GET ATLAS FREE →</strong></a></p>
-<p align="center"><sub>Windows and Mac 0.1.6 include Gmail read and send; Google's verification is pending, so sign-in is open to listed test users. Ubuntu 0.1.5 has no mail yet. Atlas Lite for Windows and Mac is a no-charge beta (paid activation is not available yet). The Windows installers are not yet signed. Independent release acceptance remains open.</sub></p>
+<p align="center"><strong>Atlas Free is now in public beta on Windows, Mac and Ubuntu.</strong> Windows 10/11, macOS 13+ (Apple silicon) and Ubuntu 24.04+, all at 0.1.6. <a href="https://titanatlas.world/downloads/"><strong>GET ATLAS FREE →</strong></a></p>
+<p align="center"><sub>All three 0.1.6 betas include Gmail read and send; Google's verification is pending, so sign-in is open to listed test users. Atlas Lite for Windows and Mac is a no-charge beta (paid activation is not available yet). The Windows installers are not yet signed. Independent release acceptance remains open.</sub></p>
 <p align="center"><sub>Atlas Free is available at no charge. TITAN.ATLAS is a commercial product family with paid editions in development; this beta does not imply that paid activation or other editions are released.</sub></p>
 
 <h1 align="center">TITAN.ATLAS</h1>
@@ -131,7 +131,7 @@ Screens captured from the running app: the first time Atlas wakes up in the Twil
 <h3 align="center">Atlas updates</h3>
 <p align="center"><sub>Check out our pace of updates here — <a href="https://titanatlas.world/atlas/upgrades/"><strong>the Atlas Upgrades board</strong></a>. The full engineering journal lives there.</sub></p>
 
-<sub><a href="CHANGELOG-website-20261020.md">Website revision status</a> · Atlas Free 0.1.6 for Windows 10/11 (sha256 `e6ce05e5…`) and macOS 13+ (sha256 `fe041d09…`), and Atlas Free 0.1.5 for Ubuntu 24.04+ (sha256 `5981edb7…`), are published at https://titanatlas.world/downloads/ (independent acceptance matrix remains open).</sub>
+<sub><a href="CHANGELOG-website-20261020.md">Website revision status</a> · Atlas Free 0.1.6 for Windows 10/11 (sha256 `e6ce05e5…`) and macOS 13+ (sha256 `fe041d09…`), and Atlas Free 0.1.6 for Ubuntu 24.04+ (sha256 `fbfadf41…`), are published at https://titanatlas.world/downloads/ (independent acceptance matrix remains open).</sub>
 
 <p align="center">
   <a href="https://titansavant.com"><img src="flagship-savant.svg" width="49%" alt="TitanSavantLLM"></a>
