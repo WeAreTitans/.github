@@ -63,6 +63,13 @@ Screens captured from the running app: the first time Atlas wakes up in the Twil
 
 <p align="center"><a href="https://titanatlas.world/"><b>Meet TITAN.ATLAS → titanatlas.world</b></a></p>
 
+### Engineering pulse · 13 November 2026 · Ubuntu Free 0.1.6
+
+- **Atlas Free 0.1.6 for Ubuntu is out.** Ubuntu 24.04 and newer, amd64, 12.9 MB, with Gmail read and send through your own Google account, with the same test-user limit as macOS and Windows while Google's app verification is pending: connect it if you choose. [Downloads and checksums](https://titanatlas.world/downloads/)
+- SHA-256 `fbfadf41f6829e45c17c23f6df0b5f7d4abbf847d6e39e4a4c8d359479da96f9`. Check it before you install.
+
+**Release limits stay explicit.** This is a beta. Gmail sign-in works for listed test users until Google's verification completes. These are public engineering notices, not a release of internal source or private build records.
+
 ### Engineering pulse · 13 November 2026 · bigger models
 
 - **Bigger models did not beat small ones once Savant was in front.** We ran the same 43-question test set on five local models, from 3 GB to 22 GB, on our own machines, the three larger ones on a 32 GB graphics card. On their own they scored 7 or 8 of 43. With Savant in front they scored 36 to 41: a 3-billion-parameter model got 38, and two models of about 20 GB scored 36 and 38.
