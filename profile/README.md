@@ -63,6 +63,14 @@ Screens captured from the running app: the first time Atlas wakes up in the Twil
 
 <p align="center"><a href="https://titanatlas.world/"><b>Meet TITAN.ATLAS → titanatlas.world</b></a></p>
 
+### Engineering pulse · 13 November 2026 · sixty questions, in her own chat
+
+- **A 60-question exam ran inside Atlas's real conversation** on the 0.1.87 development build: **51 answered correctly**. Every answer taken straight from her records, with no model call, was right — 15 of 15 — and all four deliberately tricky questions (reversed order, an added "not") came back right. The same exam on the test bench scored 52, and the small model on its own scored 20.
+- **Honest caveats.** The exam was written by our own builders, the answer key's fingerprint was posted before any run, and one question's row was spoiled by a second test driver asking it twice, so the true figure may be a point either side of 51. The bench scorer also has three known false-positive cases under review, and its call count missed 12 preliminary calls (137, not 125). Nine misses are already in the fix batch.
+- **Where the misses were.** Three history questions, two task counts, one sum (the model said 730 where 725 was right), two record questions that stepped up without carrying their facts, and one sign-off rule.
+
+**Release limits stay explicit.** The Twilight edition is in development and is not a public release. Builder-authored exam over fictional records; the in-app run was single-pass and is not yet independently reproduced.
+
 ### Engineering pulse · 13 November 2026 · Ubuntu Free 0.1.6
 
 - **Atlas Free 0.1.6 for Ubuntu is out.** Ubuntu 24.04 and newer, amd64, 12.9 MB, with Gmail read and send through your own Google account, with the same test-user limit as macOS and Windows while Google's app verification is pending: connect it if you choose. [Downloads and checksums](https://titanatlas.world/downloads/)
