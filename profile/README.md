@@ -63,6 +63,22 @@ Screens captured from the running app: the first time Atlas wakes up in the Twil
 
 <p align="center"><a href="https://titanatlas.world/"><b>Meet TITAN.ATLAS → titanatlas.world</b></a></p>
 
+### Engineering pulse · 13 November 2026 · bigger models
+
+- **Bigger models did not beat small ones once Savant was in front.** We ran the same 43-question test set on five local models, from 3 GB to 22 GB, on our own machines, the three larger ones on a 32 GB graphics card. On their own they scored 7 or 8 of 43. With Savant in front they scored 36 to 41: a 3-billion-parameter model got 38, and two models of about 20 GB scored 36 and 38.
+
+  | Model | Size | On its own | With Savant |
+  |---|---|---|---|
+  | Ministral 3 3B | 3 GB | 8 | 38 |
+  | Gemma 4 8B | 9.6 GB | 7 | 39 |
+  | Nemotron Cascade 30B-A3B | 22 GB | 8 | 36 |
+  | GLM-4.7 Flash | 19 GB | 8 | 38 |
+  | Gemma 4 31B | 17 GB | 7 | 41 |
+
+- **What that means for Atlas.** Small local models with a good memory in front are the cheap route. A 31B model with plain search over the same records came close to Savant (40 of 43), so on a big model Savant's gain is fewer model calls rather than more right answers.
+
+**Release limits stay explicit.** Single runs on a synthetic test set we wrote, over fictional records; not yet independently reproduced. The Twilight edition is in development and is not a public release.
+
 ### Engineering pulse · 13 November 2026
 
 - **A small model with a better memory beats a small model alone.** In the Twilight edition, Atlas now answers from her memory layer, Savant, before she asks a language model. On a 43-question test set with fictional records, a 3-billion-parameter model running on our own computer got 8 right on its own and 38 right with Savant in front. An 8-billion-parameter model went from 7 to 39. With Savant in front, 18 questions needed no model call at all.
